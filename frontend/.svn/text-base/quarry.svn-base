@@ -1,0 +1,77 @@
+#! /bin/bash
+#
+# quarry          Start/Stop the quarry daemon.
+#
+# chkconfig: 2345 90 60
+# description: quarry is a Web service for querying the CORIE \
+#              data repository. \
+# processname: python /home/howew/quarry/frontend/quarryWS.py
+# config: /home/howew/quarry/frontend/quarryWS.py
+# pidfile: /var/run/quarry.pid
+
+# Source function library.
+. /etc/init.d/functions
+
+RETVAL=0
+
+# See how we were called.
+  
+prog="python /home/howew/frontend/quarryWS.py"
+
+start() {
+	echo -n $"Starting $prog: "
+        daemon /usr/local/bin/python2.4 /home/howew/quarry/frontend/quarryWS.py &
+	RETVAL=$?
+	echo
+	[ $RETVAL -eq 0 ] && touch /var/lock/subsys/quarry
+	return $RETVAL
+}
+
+stop() {
+	echo -n $"Stopping $prog: "
+	killproc $prog
+	RETVAL=$?
+	echo
+	[ $RETVAL -eq 0 ] && rm -f /var/lock/subsys/quarry
+	return $RETVAL
+}	
+
+rhstatus() {
+	status $prog
+}	
+
+restart() {
+  	stop
+	start
+}	
+
+reload() {
+	echo -n $"Reloading quarry: "
+	killproc $quarry -HUP
+	retval=$?
+	echo
+	return $RETVAL
+}	
+
+case "$1" in
+  start)
+  	start
+	;;
+  stop)
+  	stop
+	;;
+  restart)
+  	restart
+	;;
+  reload)
+  	reload
+	;;
+  status)
+  	rhstatus
+	;;
+  *)
+	echo $"Usage: $0 {start|stop|status|reload|restart}"
+	exit 1
+esac
+
+exit $?

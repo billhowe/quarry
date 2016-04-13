@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/1/trunk/frontend
+END
+quarryWebServiceStartupScript.py
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/1/trunk/frontend/quarryWebServiceStartupScript.py
+END
+daemonize.py
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/1/trunk/frontend/daemonize.py
+END
+quarry
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/1/trunk/frontend/quarry
+END
+quarryWS.py
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/1/trunk/frontend/quarryWS.py
+END
+quarryTestClient.py
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/1/trunk/frontend/quarryTestClient.py
+END
+htmllayout.py
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/1/trunk/frontend/htmllayout.py
+END
+qme.py
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/1/trunk/frontend/qme.py
+END
+quarry.py
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/1/trunk/frontend/quarry.py
+END
+.quarry.pid
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/1/trunk/frontend/.quarry.pid
+END
+config.py
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/1/trunk/frontend/config.py
+END
+dashboard.py
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/1/trunk/frontend/dashboard.py
+END

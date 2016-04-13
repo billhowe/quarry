@@ -1,0 +1,14 @@
+.*param\.in$ p9.pl runid.py
+.*param\.in.gz$ p9_gz.pl runid.py
+#.*\d\d\d\d-\d\d-01.*param\.in$ p1.pl perl
+#.*\d\d\d\d-\d\d-02.*param\.in$ p2.pl perl
+#.*\d\d\d\d-\d\d-03.*param\.in$ p3.pl perl
+#.*\d\d\d\d-\d\d-05.*param\.in$ p5.pl perl
+#.*\d\d\d\d-\d\d-06.*param\.in$ p6.pl perl
+#.*\d\d\d\d-\d\d-07.*param\.in$ p7.pl perl
+#.*\d\d\d\d-\d\d-09.*param\.in$ p9.pl perl  
+#.*\d\d\d\d-\d\d-10.*param\.in$ p9.pl perl
+#.*\d\d\d\d-\d\d-11.*param\.in$ p9.pl perl
+.*\.6[34]$ reflect63.py 
+.*(?<!\d\d\d\d\d\d\d\d\d)[.]gif$ pgif.pl runid.py 
+

@@ -1,0 +1,30 @@
+
+
+--DATABASE
+
+Add table functions to postgres
+  In the contrib directory of the Postgres source tree, 
+  there should be a directory "tablefunc".  Go there and 
+  follow the README (make, make install)
+
+Make sure $POSTGRES/bin is on your path
+
+run create_quarry in $QUARRY/deploy, and watch for errors
+
+--HARVESTER
+
+install pyperl: http://www.python.org/moin/PyPerl
+  Check the readme carefully:
+    --Install Python-Object first (included with pyperl
+
+   update: pyperl is not actively maintained.  
+         Here's a version that should work on newer systems:
+   http://www.felix-schwarz.name/files/opensource/pyperl/
+  
+
+install PyGresQL: ftp://ftp.PyGreSQL.org/pub/distrib/PyGreSQL.tgz
+
+--WEB CONTENT
+install apache 2.0
+
+install mod_python

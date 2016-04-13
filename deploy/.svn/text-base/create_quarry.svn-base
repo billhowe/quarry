@@ -1,0 +1,14 @@
+
+DB=quarry_drug_concept
+USER=quarry
+
+createdb $DB -D large
+createlang plpgsql $DB
+psql $DB < tablefunc.sql
+psql $DB < array_accum.sql
+psql $DB < create_sequences.sql
+psql $DB < create_tables.sql
+#psql $DB < create_indexes.sql
+
+psql $DB -c "CREATE ROLE $USER WITH LOGIN"
+psql $DB -c "GRANT ALL ON DATABASE $DB TO $USER"

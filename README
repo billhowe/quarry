@@ -1,0 +1,37 @@
+frontend contains a RESTful API and a canonical web app
+
+backend contains an API for managing the quarry signature database.
+
+All you need is backend if you will only access the quarry instance through python.
+
+INSTALL
+
+get python
+get postgresql
+
+follow brief instructions in deploy/README
+
+edit backend/config.py to point to your database host
+
+IF you want to harvest triples using the "harvester", you'll need to add scripts to 
+
+./collectors/
+
+and edit the rules in 
+
+./rule
+
+Given a filename, each collector should emit resource, property, value triples to stdout.
+
+You can also just create files of triples manually.  
+
+Then use backend/quarryLOAD.py to load the results.
+
+See examples in the directory for more info.
+
+Once some data is loaded, look at the examples at the 
+bottom of frontend/quarry.py to see how to use python to query the triple store.
+For a description of the API, see the paper
+
+Quarrying Dataspaces: Schemaless Profiling of Unfamiliar Information Sources, Bill Howe, David Maier, Nicolas Rayner, James Rucker, Workshop on Information Integration Methods, Architectures, and Systems (IIMAS 2008)
+

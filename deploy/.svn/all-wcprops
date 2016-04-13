@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/svn/!svn/ver/1/trunk/deploy
+END
+create_indexes.sql
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/1/trunk/deploy/create_indexes.sql
+END
+tablefunc.sql
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/1/trunk/deploy/tablefunc.sql
+END
+array_accum.sql
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/1/trunk/deploy/array_accum.sql
+END
+create_quarry
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/1/trunk/deploy/create_quarry
+END
+drop_quarry
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/1/trunk/deploy/drop_quarry
+END
+create_tables.sql
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/1/trunk/deploy/create_tables.sql
+END
+create_sequences.sql
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/1/trunk/deploy/create_sequences.sql
+END
+drop_tables.sql
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/1/trunk/deploy/drop_tables.sql
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/1/trunk/deploy/README
+END
+drop_sequences.sql
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/1/trunk/deploy/drop_sequences.sql
+END

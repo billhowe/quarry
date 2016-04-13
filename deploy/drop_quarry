@@ -1,0 +1,4 @@
+DB=quarry_drug
+
+psql $DB < drop_sequences.sql
+dropdb $DB

@@ -1,0 +1,40 @@
+8
+
+dir
+1
+https://quarry.googlecode.com/svn/trunk/frontend/test
+https://quarry.googlecode.com/svn
+
+
+
+2009-07-15T01:20:35.833453Z
+1
+billhowe
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+4fb93548-70dd-11de-83e1-4fc93b4a6815
+
+testquarry.py
+file
+
+
+
+
+2011-07-21T18:24:02.000000Z
+f98db64798dd81ed30e0a398e6ddb813
+2009-07-15T01:20:35.833453Z
+1
+billhowe
+

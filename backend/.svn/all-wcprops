@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/1/trunk/backend
+END
+count.py
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/1/trunk/backend/count.py
+END
+harvest.py
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/1/trunk/backend/harvest.py
+END
+sigmanager.py
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/1/trunk/backend/sigmanager.py
+END
+queries.py
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/1/trunk/backend/queries.py
+END
+signature.py
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/1/trunk/backend/signature.py
+END
+qlog.py
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/1/trunk/backend/qlog.py
+END
+quarryLOAD.py
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/1/trunk/backend/quarryLOAD.py
+END
+bulkloader.py
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/1/trunk/backend/bulkloader.py
+END
+config.py
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/1/trunk/backend/config.py
+END
+qdb.py
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/1/trunk/backend/qdb.py
+END
